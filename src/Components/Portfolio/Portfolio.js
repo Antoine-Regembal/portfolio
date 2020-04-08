@@ -6,12 +6,12 @@ import Presentation from "../Presentation";
 import AppFooter from "../AppFooter";
 import Navigation from "../Navigation";
 
-const Portfolio = () => (
+const Portfolio = ({ appContent }) => (
   <div className="portfolio">
-    <Home />
-    <Presentation />
+    <Home homeContent={appContent.home} />
+    <Presentation presentationContent={appContent.presentation} />
     <AppFooter />
-    <Navigation />
+    <Navigation navigationContent={appContent.navigation} />
   </div>
 );
 

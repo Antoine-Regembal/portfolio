@@ -1,0 +1,38 @@
+{
+  "fr": {
+    "home": {
+      "sectionId": "home"
+    },
+    "presentation": {
+      "sectionId": "presentation"
+    },
+    "navigation": [
+      {
+        "label": "Accueil",
+        "destination": "home"
+      },
+      {
+        "label": "Présentation",
+        "destination": "presentation"
+      }
+    ]
+  },
+  "en": {
+    "home": {
+      "sectionId": "home"
+    },
+    "presentation": {
+      "sectionId": "presentation"
+    },
+    "navigation": [
+      {
+        "label": "Home",
+        "destination": "home"
+      },
+      {
+        "label": "Presentation",
+        "destination": "presentation"
+      }
+    ]
+  }
+}
