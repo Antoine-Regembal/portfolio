@@ -1,11 +1,11 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
 
-import Home from "./Components/Home";
+import Portfolio from "./Components/Portfolio";
 
 const AppRouter = () => (
   <Switch>
-    <Route path="/" exact render={props => <Home {...props} />} />
+    <Route path="/" exact render={(props) => <Portfolio {...props} />} />
   </Switch>
 );
 

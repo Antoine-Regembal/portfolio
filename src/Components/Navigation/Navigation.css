@@ -1,0 +1,7 @@
+.navigation {
+  height: 5vh;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: blue;
+}
