@@ -32,7 +32,13 @@
     "presentation": {
       "sectionId": "presentation",
       "label": "Présentation",
-      "navIcon": "smiling-face"
+      "navIcon": "smiling-face",
+      "title": "Ingénieur informatique Junior à Lille",
+      "paragraphs": [
+        "Etudiant en dernière année de master informatique, je suis en alternance chez AXA France où je me prépare à devenir ingénieur informatique junior.",
+        "Mon domaine de compétence s'étend de la conception au développement d'interfaces utilisateur et de programmes.",
+        "J'utilise principalement les technologie Javascript comme React et NodeJS, mais également d'autres langages comme le PHP. Au delà du technique, j'oeuvre avec différentes bonnes pratiques tels que le développement piloté par les tests, le clean code, et d'autres principes du Software Craftmanship."
+      ]
     },
     "technologies": {
       "sectionId": "technologies",
@@ -58,7 +64,13 @@
     "presentation": {
       "sectionId": "presentation",
       "label": "Presentation",
-      "navIcon": "smiling-face"
+      "navIcon": "smiling-face",
+      "title": "Software engineer junior in Lille",
+      "paragraphs": [
+        "Etudiant en dernière année de master informatique, je suis en alternance chez AXA France où je me prépare à devenir ingénieur informatique junior.",
+        "Mon domaine de compétence s'étend de la conception au développement d'interfaces utilisateur et de programmes.",
+        "J'utilise principalement les technologie Javascript comme React et NodeJS, mais également d'autres langages comme le PHP. Au delà du technique, j'oeuvre avec différentes bonnes pratiques tels que le développement piloté par les tests, le clean code, et d'autres principes du Software Craftmanship."
+      ]
     },
     "technologies": {
       "sectionId": "technologies",
@@ -68,7 +80,51 @@
     "cursus": {
       "sectionId": "cursus",
       "label": "Cursus",
-      "navIcon": "award"
+      "navIcon": "award",
+      "sections": [
+        {
+          "type": "work",
+          "date": "2018 - present",
+          "title": "Software Engineer Junior @AXA France",
+          "location": "Wasquehal, FR",
+          "description": "Web development, Software Craftmanship, User Experience, Agility."
+        },
+        {
+          "type": "work",
+          "date": "2017 - 2018",
+          "title": "Full-Stack Developper @Xilan",
+          "location": "Lille, FR",
+          "description": "Development, Architecture, Conception, Integration."
+        },
+        {
+          "type": "work",
+          "date": "2016 - 2017",
+          "title": "Helpdesk Technician @Helpline",
+          "location": "Marcq-en-Baroeul, FR",
+          "description": "Support, Troubleshoot, Guidance, Assitance."
+        },
+        {
+          "type": "education",
+          "date": "2018 - present",
+          "title": "IT Master's degree @EPSI",
+          "location": "Lille, FR",
+          "description": "Agile Software Development, Project Management, Javascript advanced."
+        },
+        {
+          "type": "education",
+          "date": "2017 - 2018",
+          "title": "IT Bachelor's degree @EPSI",
+          "location": "Lille, FR",
+          "description": "PHP, Javascript, Versionning."
+        },
+        {
+          "type": "education",
+          "date": "2014 - 2016",
+          "title": "BTS SNIR",
+          "location": "Lille, FR",
+          "description": "OOP, C++, Relational Databases."
+        }
+      ]
     }
   }
 }

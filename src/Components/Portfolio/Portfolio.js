@@ -17,7 +17,10 @@ const Portfolio = ({ appContent, appCommon, setLanguage }) => (
       name={appCommon.name}
       setLanguage={setLanguage}
     />
-    <Presentation presentationContent={appContent.presentation} />
+    <Presentation
+      presentationContent={appContent.presentation}
+      name={appCommon.name}
+    />
     <Technologies technologiesContent={appContent.technologies} />
     <Cursus cursusContent={appContent.cursus} />
     <AppFooter />

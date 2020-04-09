@@ -1,4 +1,32 @@
 .presentation {
   min-height: 100vh;
-  background-color: yellow;
+  background-color: #000000;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.presentation__container {
+  margin: auto;
+}
+
+.presentation__container-text {
+  margin-top: 50%;
+}
+
+.presentation h2 {
+  margin: 0;
+}
+
+.presentation p {
+  text-align: justify;
+}
+
+.presentation p {
+  padding-top: 30px;
+}
+
+.presentation__image {
+  max-width: 100%;
+  height: auto;
 }
