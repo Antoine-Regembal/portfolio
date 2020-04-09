@@ -37,18 +37,57 @@
       "paragraphs": [
         "Etudiant en dernière année de master informatique, je suis en alternance chez AXA France où je me prépare à devenir ingénieur informatique junior.",
         "Mon domaine de compétence s'étend de la conception au développement d'interfaces utilisateur et de programmes.",
-        "J'utilise principalement les technologie Javascript comme React et NodeJS, mais également d'autres langages comme le PHP. Au delà du technique, j'oeuvre avec différentes bonnes pratiques tels que le développement piloté par les tests, le clean code, et d'autres principes du Software Craftmanship."
+        "J'utilise principalement les technologie Javascript comme React et NodeJS, mais également d'autres langages comme le PHP. Au delà du technique, j'oeuvre avec différentes bonnes pratiques tels que le développement piloté par les tests, le clean code et d'autres principes du Software Craftmanship."
       ]
-    },
-    "technologies": {
-      "sectionId": "technologies",
-      "label": "Technologies",
-      "navIcon": "monitor"
     },
     "cursus": {
       "sectionId": "cursus",
       "label": "Cursus",
-      "navIcon": "award"
+      "navIcon": "award",
+      "sections": [
+        {
+          "type": "work",
+          "date": "2018 - aujourd'hui",
+          "title": "Software Engineer Junior @AXA France",
+          "location": "Wasquehal, FR",
+          "description": "Développement Web, Software Craftmanship, Expérience utilisateur, Agilité."
+        },
+        {
+          "type": "work",
+          "date": "2017 - 2018",
+          "title": "Full-Stack Developper @Xilan",
+          "location": "Lille, FR",
+          "description": "Développement, Architecture, Conception, Intégration."
+        },
+        {
+          "type": "work",
+          "date": "2016 - 2017",
+          "title": "Helpdesk Technician @Helpline",
+          "location": "Marcq-en-Baroeul, FR",
+          "description": "Support, Dépannage, Guide, Assistance."
+        },
+        {
+          "type": "education",
+          "date": "2018 - aujourd'hui",
+          "title": "IT Master's degree @EPSI",
+          "location": "Lille, FR",
+          "description": "Développement piloté par l'agilité, Management de projets, Javascript avancé."
+        },
+        {
+          "type": "education",
+          "date": "2017 - 2018",
+          "title": "IT Bachelor's degree @EPSI",
+          "location": "Lille, FR",
+          "description": "PHP, Javascript, Versionning."
+        },
+        {
+          "type": "education",
+          "date": "2014 - 2016",
+          "title": "BTS SNIR",
+          "location": "Lille, FR",
+          "description": "POO, C++, Base de données relationnelles."
+        }
+      ]
     }
   },
   "en": {
@@ -67,15 +106,10 @@
       "navIcon": "smiling-face",
       "title": "Software engineer junior in Lille",
       "paragraphs": [
-        "Etudiant en dernière année de master informatique, je suis en alternance chez AXA France où je me prépare à devenir ingénieur informatique junior.",
-        "Mon domaine de compétence s'étend de la conception au développement d'interfaces utilisateur et de programmes.",
-        "J'utilise principalement les technologie Javascript comme React et NodeJS, mais également d'autres langages comme le PHP. Au delà du technique, j'oeuvre avec différentes bonnes pratiques tels que le développement piloté par les tests, le clean code, et d'autres principes du Software Craftmanship."
+        "Last year student in IT master's degree, apprenticeship at AXA France where I'm planning to become software engineer junior.",
+        "My expertise area extends from design to the development of user interfaces and programs.",
+        "I like to use Javascript techologies such as React and NodeJS, but I also use different languages like PHP. Beyond technicity, I work with best practices such as test driven development, clean code and other principles from Software Craftsmanship manifest."
       ]
-    },
-    "technologies": {
-      "sectionId": "technologies",
-      "label": "Technologies",
-      "navIcon": "monitor"
     },
     "cursus": {
       "sectionId": "cursus",
