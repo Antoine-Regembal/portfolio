@@ -8,9 +8,9 @@ import Cursus from "../Cursus";
 import AppFooter from "../AppFooter";
 import Navigation from "../Navigation";
 
-const Portfolio = ({ appContent }) => (
+const Portfolio = ({ appContent, setLanguage }) => (
   <div className="portfolio">
-    <Home homeContent={appContent.home} />
+    <Home homeContent={appContent.home} setLanguage={setLanguage} />
     <Presentation presentationContent={appContent.presentation} />
     <Technologies technologiesContent={appContent.technologies} />
     <Cursus cursusContent={appContent.cursus} />

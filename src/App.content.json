@@ -14,7 +14,10 @@
         }
       },
       "homeBar": {
-        "languages": ["en", "fr"]
+        "languages": [
+          { "label": "English", "code": "en" },
+          { "label": "Français", "code": "fr" }
+        ]
       }
     },
     "presentation": {
