@@ -3,15 +3,15 @@ import Icon from "react-eva-icons";
 
 import "./NavigationIcon.css";
 
-const NavigationIcon = ({ navigationIconContent }) => (
+const NavigationIcon = ({ navIconLabel, navIconPoperties }) => (
   <Icon
-    name={navigationIconContent.label}
-    size={navigationIconContent.size}
-    fill={navigationIconContent.fill}
+    name={navIconLabel}
+    size={navIconPoperties.size}
+    fill={navIconPoperties.fill}
     animation={{
-      type: navigationIconContent.animation.type,
-      hover: navigationIconContent.animation.hover,
-      infinite: navigationIconContent.animation.infinite,
+      type: navIconPoperties.animation.type,
+      hover: navIconPoperties.animation.hover,
+      infinite: navIconPoperties.animation.infinite,
     }}
   />
 );

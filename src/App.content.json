@@ -21,128 +21,44 @@
     "home": {
       "sectionId": "home",
       "label": "Accueil",
-      "navIcon": {
-        "label": "home",
-        "size": "medium",
-        "fill": "#000000",
-        "animation": {
-          "type": "none",
-          "hover": true,
-          "infinite": true
-        }
-      },
-      "homeBar": {
-        "languages": [
-          { "label": "English", "code": "en" },
-          { "label": "Français", "code": "fr" }
-        ]
-      }
+      "navIcon": "home"
     },
     "presentation": {
       "sectionId": "presentation",
       "label": "Présentation",
-      "navIcon": {
-        "label": "smiling-face",
-        "size": "medium",
-        "fill": "#000000",
-        "animation": {
-          "type": "none",
-          "hover": true,
-          "infinite": true
-        }
-      }
+      "navIcon": "smiling-face"
     },
     "technologies": {
       "sectionId": "technologies",
       "label": "Technologies",
-      "navIcon": {
-        "label": "monitor",
-        "size": "medium",
-        "fill": "#000000",
-        "animation": {
-          "type": "none",
-          "hover": true,
-          "infinite": true
-        }
-      }
+      "navIcon": "monitor"
     },
     "cursus": {
       "sectionId": "cursus",
       "label": "Cursus",
-      "navIcon": {
-        "label": "award",
-        "size": "medium",
-        "fill": "#000000",
-        "animation": {
-          "type": "none",
-          "hover": true,
-          "infinite": true
-        }
-      }
+      "navIcon": "award"
     }
   },
   "en": {
     "home": {
       "sectionId": "home",
       "label": "Home",
-      "navIcon": {
-        "label": "home",
-        "size": "medium",
-        "fill": "#000000",
-        "animation": {
-          "type": "none",
-          "hover": true,
-          "infinite": true
-        }
-      },
-      "homeBar": {
-        "languages": [
-          { "label": "English", "code": "en" },
-          { "label": "Français", "code": "fr" }
-        ]
-      }
+      "navIcon": "home"
     },
     "presentation": {
       "sectionId": "presentation",
       "label": "Presentation",
-      "navIcon": {
-        "label": "smiling-face",
-        "size": "medium",
-        "fill": "#000000",
-        "animation": {
-          "type": "none",
-          "hover": true,
-          "infinite": true
-        }
-      }
+      "navIcon": "smiling-face"
     },
     "technologies": {
       "sectionId": "technologies",
       "label": "Technologies",
-      "navIcon": {
-        "label": "monitor",
-        "size": "medium",
-        "fill": "#000000",
-        "animation": {
-          "type": "none",
-          "hover": true,
-          "infinite": true
-        }
-      }
+      "navIcon": "monitor"
     },
     "cursus": {
       "sectionId": "cursus",
       "label": "Cursus",
-      "navIcon": {
-        "label": "award",
-        "size": "medium",
-        "fill": "#000000",
-        "animation": {
-          "type": "none",
-          "hover": true,
-          "infinite": true
-        }
-      }
+      "navIcon": "award"
     }
   }
 }

@@ -4,7 +4,7 @@ import { HashLink as Link } from "react-router-hash-link";
 import "./Navigation.css";
 import NavigationIcon from "./NagivationIcon";
 
-const Navigation = ({ navLinks, appContent }) => (
+const Navigation = ({ navLinks, appContent, navIcon }) => (
   <div className="navigation">
     <ul className="navigation__list">
       {navLinks.map((section, key) => (
@@ -14,7 +14,10 @@ const Navigation = ({ navLinks, appContent }) => (
           smooth
           className="navigation__list-element app__links"
         >
-          <NavigationIcon navigationIconContent={appContent[section].navIcon} />
+          <NavigationIcon
+            navIconLabel={appContent[section].navIcon}
+            navIconPoperties={navIcon}
+          />
           <li>{appContent[section].label}</li>
         </Link>
       ))}

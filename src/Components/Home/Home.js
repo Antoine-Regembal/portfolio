@@ -3,9 +3,9 @@ import React from "react";
 import "./Home.css";
 import HomeBar from "./HomeBar";
 
-const Home = ({ homeContent, setLanguage }) => (
+const Home = ({ homeContent, homeCommon, setLanguage }) => (
   <div id={homeContent.sectionId} className="home">
-    <HomeBar homeBarContent={homeContent.homeBar} setLanguage={setLanguage} />
+    <HomeBar setLanguage={setLanguage} homeBarContent={homeCommon} />
   </div>
 );
 

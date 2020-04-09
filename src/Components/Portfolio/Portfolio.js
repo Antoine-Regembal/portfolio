@@ -11,13 +11,17 @@ import Navigation from "../Navigation";
 
 const Portfolio = ({ appContent, appCommon, setLanguage }) => (
   <div className="portfolio">
-    <Home homeContent={appContent.home} setLanguage={setLanguage} />
+    <Home
+      homeContent={appContent.home}
+      homeCommon={appCommon.homeBar}
+      setLanguage={setLanguage}
+    />
     <Presentation presentationContent={appContent.presentation} />
     <Technologies technologiesContent={appContent.technologies} />
     <Cursus cursusContent={appContent.cursus} />
     <AppFooter />
     <Github githubContent={appCommon.github} />
-    <Navigation appContent={appContent} />
+    <Navigation appContent={appContent} navIcon={appCommon.navIcon} />
   </div>
 );
 
