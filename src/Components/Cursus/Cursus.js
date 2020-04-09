@@ -9,7 +9,7 @@ import { FaGithub } from "react-icons/fa";
 import "./Cursus.css";
 
 const Cursus = ({ cursusContent }) => (
-  <div id={cursusContent.sectionId} className="cursus">
+  <div id={cursusContent.sectionId} className="cursus parallax">
     <VerticalTimeline>
       {cursusContent.sections.map((section, key) =>
         section.type === "work" ? (
