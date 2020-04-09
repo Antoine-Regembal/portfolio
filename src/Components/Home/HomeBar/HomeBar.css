@@ -1,0 +1,29 @@
+.home-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  text-align: center;
+}
+
+.home-bar ul {
+  margin: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.home-bar li {
+  flex: auto;
+  font-size: 0.8em;
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.home-bar li:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+}

@@ -12,6 +12,9 @@
           "hover": true,
           "infinite": true
         }
+      },
+      "homeBar": {
+        "languages": ["en", "fr"]
       }
     },
     "presentation": {
@@ -70,6 +73,12 @@
           "hover": true,
           "infinite": true
         }
+      },
+      "homeBar": {
+        "languages": [
+          { "label": "English", "code": "en" },
+          { "label": "Français", "code": "fr" }
+        ]
       }
     },
     "presentation": {
