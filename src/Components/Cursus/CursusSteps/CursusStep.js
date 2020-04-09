@@ -4,7 +4,9 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import { FaGithub } from "react-icons/fa";
+import { GiDiploma } from "react-icons/gi";
+import { MdWork } from "react-icons/md";
+import { IoMdRocket } from "react-icons/io";
 
 import "./CursusSteps.css";
 
@@ -17,7 +19,7 @@ const CursusSteps = ({ cursusContent }) => (
           className="vertical-timeline-element--work"
           date={section.date}
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={<FaGithub />}
+          icon={<MdWork />}
         >
           <h3 className="vertical-timeline-element-title">{section.title}</h3>
           <h4 className="vertical-timeline-element-subtitle">
@@ -31,7 +33,7 @@ const CursusSteps = ({ cursusContent }) => (
           className="vertical-timeline-element--education"
           date={section.date}
           iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
-          icon={<FaGithub />}
+          icon={<GiDiploma />}
         >
           <h3 className="vertical-timeline-element-title">{section.title}</h3>
           <h4 className="vertical-timeline-element-subtitle">
@@ -43,7 +45,7 @@ const CursusSteps = ({ cursusContent }) => (
     )}
     <VerticalTimelineElement
       iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
-      icon={<FaGithub />}
+      icon={<IoMdRocket />}
     />
   </VerticalTimeline>
 );
