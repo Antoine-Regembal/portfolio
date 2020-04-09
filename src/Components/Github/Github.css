@@ -1,0 +1,17 @@
+.github {
+  position: fixed;
+  bottom: 115px;
+  right: 60px;
+}
+
+.github__logo {
+  color: #000000;
+  position: absolute;
+  z-index: 1;
+  transition: all 0.2s ease-in-out;
+}
+
+.github__logo:hover {
+  transform: scale(1.2);
+  color: #551a8b;
+}

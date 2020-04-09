@@ -1,4 +1,22 @@
 {
+  "common": {
+    "homeBar": {
+      "languages": [
+        { "label": "English", "code": "en" },
+        { "label": "Français", "code": "fr" }
+      ]
+    },
+    "github": "https://github.com/Antoine-Regembal",
+    "navIcon": {
+      "size": "medium",
+      "fill": "#000000",
+      "animation": {
+        "type": "none",
+        "hover": true,
+        "infinite": true
+      }
+    }
+  },
   "fr": {
     "home": {
       "sectionId": "home",

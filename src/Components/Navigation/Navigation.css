@@ -10,6 +10,7 @@
 }
 
 .navigation ul {
+  padding-inline-start: 0;
   margin: 5px;
   flex: 1;
   display: flex;

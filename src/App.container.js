@@ -9,7 +9,13 @@ const EnhancedApp = () => {
 
   const getAppContent = () => appContent[language];
 
-  return <App appContent={getAppContent()} setLanguage={setLanguage} />;
+  return (
+    <App
+      appContent={getAppContent()}
+      appCommon={appContent.common}
+      setLanguage={setLanguage}
+    />
+  );
 };
 
 export default EnhancedApp;
