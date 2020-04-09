@@ -26,16 +26,16 @@
       "label": "Accueil",
       "navIcon": "home",
       "homeWelcome": {
-        "welcome": "Ingénieur informatique Junior à Lille"
+        "welcome": "Ingénieur informatique à Lille"
       }
     },
     "presentation": {
       "sectionId": "presentation",
       "label": "Présentation",
       "navIcon": "smiling-face",
-      "title": "Ingénieur informatique Junior à Lille",
+      "title": "Ingénieur informatique à Lille",
       "paragraphs": [
-        "Etudiant en dernière année de master informatique, je suis en alternance chez AXA France où je me prépare à devenir ingénieur informatique junior.",
+        "Etudiant en dernière année de master informatique, je suis en alternance chez AXA France où je me prépare à devenir ingénieur informatique.",
         "Mon domaine de compétence s'étend de la conception au développement d'interfaces utilisateur et de programmes.",
         "J'utilise principalement les technologie Javascript comme React et NodeJS, mais également d'autres langages comme le PHP. Au delà du technique, j'oeuvre avec différentes bonnes pratiques tels que le développement piloté par les tests, le clean code et d'autres principes du Software Craftmanship."
       ]
@@ -48,7 +48,7 @@
         {
           "type": "work",
           "date": "2018 - aujourd'hui",
-          "title": "Software Engineer Junior @AXA France",
+          "title": "Software Engineer @AXA France",
           "location": "Wasquehal, FR",
           "description": "Développement Web, Software Craftmanship, Expérience utilisateur, Agilité."
         },
@@ -97,16 +97,16 @@
       "navIcon": "home",
       "homeWelcome": {
         "hi": "Hi, I'm",
-        "welcome": "Software engineer junior in Lille"
+        "welcome": "Software engineer in Lille"
       }
     },
     "presentation": {
       "sectionId": "presentation",
       "label": "Presentation",
       "navIcon": "smiling-face",
-      "title": "Software engineer junior in Lille",
+      "title": "Software engineer in Lille",
       "paragraphs": [
-        "Last year student in IT master's degree, apprenticeship at AXA France where I'm planning to become software engineer junior.",
+        "Last year student in IT master's degree, apprenticeship at AXA France where I'm planning to become software engineer.",
         "My expertise area extends from design to the development of user interfaces and programs.",
         "I like to use Javascript techologies such as React and NodeJS, but I also use different languages like PHP. Beyond technicity, I work with best practices such as test driven development, clean code and other principles from Software Craftsmanship manifest."
       ]
@@ -119,7 +119,7 @@
         {
           "type": "work",
           "date": "2018 - present",
-          "title": "Software Engineer Junior @AXA France",
+          "title": "Software Engineer @AXA France",
           "location": "Wasquehal, FR",
           "description": "Web development, Software Craftmanship, User Experience, Agility."
         },
