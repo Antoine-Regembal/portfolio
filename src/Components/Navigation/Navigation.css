@@ -6,10 +6,11 @@
   flex-direction: row;
   justify-content: center;
   text-align: center;
-  background-color: blue;
+  background-color: #ffffff;
 }
 
 .navigation ul {
+  margin: 5px;
   flex: 1;
   display: flex;
   flex-wrap: wrap;
@@ -20,4 +21,15 @@
 
 .navigation li {
   flex: auto;
+  font-size: 0.8em;
+}
+
+.navigation__list-element {
+  padding: 5px;
+  border-radius: 0.5rem;
+  transition: 0.3s;
+}
+
+.navigation__list-element:hover {
+  background-color: #b9adad;
 }
