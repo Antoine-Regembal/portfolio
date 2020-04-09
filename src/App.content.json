@@ -1,38 +1,38 @@
 {
   "fr": {
     "home": {
-      "sectionId": "home"
+      "sectionId": "home",
+      "label": "Accueil"
     },
     "presentation": {
-      "sectionId": "presentation"
+      "sectionId": "presentation",
+      "label": "Présentation"
     },
-    "navigation": [
-      {
-        "label": "Accueil",
-        "destination": "home"
-      },
-      {
-        "label": "Présentation",
-        "destination": "presentation"
-      }
-    ]
+    "technologies": {
+      "sectionId": "technologies",
+      "label": "Technologies"
+    },
+    "cursus": {
+      "sectionId": "cursus",
+      "label": "Cursus"
+    }
   },
   "en": {
     "home": {
-      "sectionId": "home"
+      "sectionId": "home",
+      "label": "Home"
     },
     "presentation": {
-      "sectionId": "presentation"
+      "sectionId": "presentation",
+      "label": "Presentation"
     },
-    "navigation": [
-      {
-        "label": "Home",
-        "destination": "home"
-      },
-      {
-        "label": "Presentation",
-        "destination": "presentation"
-      }
-    ]
+    "technologies": {
+      "sectionId": "technologies",
+      "label": "Technologies"
+    },
+    "cursus": {
+      "sectionId": "cursus",
+      "label": "Cursus"
+    }
   }
 }

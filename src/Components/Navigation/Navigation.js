@@ -3,17 +3,12 @@ import { HashLink as Link } from "react-router-hash-link";
 
 import "./Navigation.css";
 
-const Navigation = ({ navigationContent }) => (
+const Navigation = ({ navLinks, appContent }) => (
   <div className="navigation">
     <ul className="navigation__list">
-      {navigationContent.map((section, key) => (
-        <Link
-          key={key}
-          to={`/#${section.destination}`}
-          smooth
-          className="app__links"
-        >
-          <li>{section.label}</li>
+      {navLinks.map((section, key) => (
+        <Link key={key} to={`/#${section}`} smooth className="app__links">
+          <li>{appContent[section].label}</li>
         </Link>
       ))}
     </ul>
