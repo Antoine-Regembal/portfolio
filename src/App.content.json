@@ -1,10 +1,13 @@
 {
   "common": {
-    "homeBar": {
-      "languages": [
-        { "label": "English", "code": "en" },
-        { "label": "Français", "code": "fr" }
-      ]
+    "name": "Antoine Regembal",
+    "home": {
+      "homeBar": {
+        "languages": [
+          { "label": "English", "code": "en" },
+          { "label": "Français", "code": "fr" }
+        ]
+      }
     },
     "github": "https://github.com/Antoine-Regembal",
     "navIcon": {
@@ -21,7 +24,10 @@
     "home": {
       "sectionId": "home",
       "label": "Accueil",
-      "navIcon": "home"
+      "navIcon": "home",
+      "homeWelcome": {
+        "welcome": "Ingénieur informatique Junior à Lille"
+      }
     },
     "presentation": {
       "sectionId": "presentation",
@@ -43,7 +49,11 @@
     "home": {
       "sectionId": "home",
       "label": "Home",
-      "navIcon": "home"
+      "navIcon": "home",
+      "homeWelcome": {
+        "hi": "Hi, I'm",
+        "welcome": "Software engineer junior in Lille"
+      }
     },
     "presentation": {
       "sectionId": "presentation",

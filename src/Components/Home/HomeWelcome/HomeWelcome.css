@@ -1,0 +1,30 @@
+.home-welcome {
+  margin: 1px;
+  text-align: center;
+}
+
+.home-welcome::after,
+.home-welcome::before {
+  margin: 10px;
+  display: block;
+  content: "";
+  border-bottom: 3px solid #000000;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: -webkit-transform 0.8s ease-in-out;
+  transition: -webkit-transform 0.8s ease-in-out;
+  transition: transform 0.8s ease-in-out;
+  transition: transform 0.8s ease-in-out, -webkit-transform 0.8s ease-in-out;
+}
+
+.home-welcome__animation::after,
+.home-welcome__animation::before {
+  -webkit-transform-origin: 50 0%;
+  transform-origin: 50 0%;
+}
+
+.home-welcome__animation--activation:hover:after,
+.home-welcome__animation--activation:hover:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}

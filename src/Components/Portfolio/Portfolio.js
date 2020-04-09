@@ -13,7 +13,8 @@ const Portfolio = ({ appContent, appCommon, setLanguage }) => (
   <div className="portfolio">
     <Home
       homeContent={appContent.home}
-      homeCommon={appCommon.homeBar}
+      homeCommon={appCommon.home}
+      name={appCommon.name}
       setLanguage={setLanguage}
     />
     <Presentation presentationContent={appContent.presentation} />

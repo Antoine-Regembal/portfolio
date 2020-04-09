@@ -1,4 +1,8 @@
 .home {
+  position: relative;
   min-height: 95vh;
-  background-color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
