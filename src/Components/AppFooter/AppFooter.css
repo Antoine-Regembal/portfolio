@@ -1,4 +1,7 @@
 .app-footer {
   height: 10vh;
-  background-color: brown;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 10px;
 }

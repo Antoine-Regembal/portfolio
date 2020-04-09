@@ -22,7 +22,7 @@ const Portfolio = ({ appContent, appCommon, setLanguage }) => (
       name={appCommon.name}
     />
     <Cursus cursusContent={appContent.cursus} />
-    <AppFooter />
+    <AppFooter name={appCommon.name} />
     <Github githubContent={appCommon.github} />
     <Navigation appContent={appContent} navIcon={appCommon.navIcon} />
   </div>

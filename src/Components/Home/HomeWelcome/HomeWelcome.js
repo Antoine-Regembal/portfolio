@@ -7,7 +7,7 @@ const HomeWelcome = ({ homeWelcomeContent, name }) => (
     <h1>
       {homeWelcomeContent.hi} {name}
     </h1>
-    <h1>{homeWelcomeContent.welcome}</h1>
+    <h2>{homeWelcomeContent.welcome}</h2>
   </div>
 );
 
