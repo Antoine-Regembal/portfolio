@@ -1,13 +1,11 @@
-# react-starter
-A simple template to quickly setup React projects including preconfigured react-router-dom and a react-grid-system package.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/04795361-a7ce-4e2f-8a76-913ca98c79ae/deploy-status)](https://app.netlify.com/sites/antoine-regembal/deploys)
 
-## Default setup
-By default, the application contains 1 component called `src/Home/Home.js`, which is displayed.
+# Hi, this is the repository of my personal website.
 
-## How does it works ?
-The `App.router.js` file contains the routing system. To create new routes, simply import your components to this file
-and add a route into the `switch` like this :  
+# This website is under construction
 
-`<Route path="/aNewPath" exact render={props => <YourComponent {...props} />} />`
+I voluntarily left this repository public under MIT licence in order to allow each person to clone or fork this project, modify it, improve it and I hope, to help others learning React despite the fact the code may not be the best you can find on the internet.
 
-You can now access it through `localhost:3000/{newPath}` 
+If you clone this project and create improvements, a pull request would be appreciated :) 
+
+Antoine
