@@ -5,7 +5,7 @@ import { version } from "../../../package.json";
 
 const AppFooter = ({ name }) => (
   <div className="app-footer">
-    <span>{name} - </span>
+    <span>Copyright (c) 2020 {name} - </span>
     <span>{version}</span>
   </div>
 );

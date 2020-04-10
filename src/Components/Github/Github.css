@@ -5,7 +5,7 @@
 }
 
 .github__logo {
-  color: #000000;
+  color: #551a8b;
   position: absolute;
   z-index: 1;
   transition: all 0.2s ease-in-out;
@@ -13,5 +13,5 @@
 
 .github__logo:hover {
   transform: scale(1.2);
-  color: #551a8b;
+  color: #ffd700;
 }
