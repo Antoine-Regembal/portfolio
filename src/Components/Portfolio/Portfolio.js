@@ -9,7 +9,7 @@ import AppFooter from "../AppFooter";
 import Github from "../Github";
 import Navigation from "../Navigation";
 
-const Portfolio = ({ appContent, appCommon, setLanguage }) => (
+const Portfolio = ({ appContent, appCommon, setLanguage, appLogos }) => (
   <div className="portfolio">
     <Home
       homeContent={appContent.home}
@@ -22,6 +22,10 @@ const Portfolio = ({ appContent, appCommon, setLanguage }) => (
       name={appCommon.name}
     />
     <Cursus cursusContent={appContent.cursus} />
+    <Technologies
+      technologiesContent={appContent.technologies}
+      appLogos={appLogos}
+    />
     <AppFooter name={appCommon.name} />
     <Github githubContent={appCommon.github} />
     <Navigation appContent={appContent} navIcon={appCommon.navIcon} />

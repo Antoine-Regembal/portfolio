@@ -88,6 +88,104 @@
           "description": "POO, C++, Base de données relationnelles."
         }
       ]
+    },
+    "technologies": {
+      "sectionId": "technologies",
+      "label": "Technologies",
+      "navIcon": "monitor-outline",
+      "sections": [
+        {
+          "title": "Les langages que j'utilise en entreprise, pour des projets personnels, pour la veille technologique ...",
+          "icons": [
+            {
+              "title": "react",
+              "color": "#27dcfa",
+              "label": "ReactJS"
+            },
+            {
+              "title": "angular",
+              "color": "#dd0031",
+              "label": "Angular"
+            },
+            {
+              "title": "javascript",
+              "color": "#f0d91d",
+              "label": "Javascript"
+            },
+            {
+              "title": "node",
+              "color": "#7a9f53",
+              "label": "NodeJS"
+            },
+            {
+              "title": "php",
+              "color": "#858fbc",
+              "label": "PHP"
+            },
+            {
+              "title": "html",
+              "color": "#de4b25",
+              "label": "HTML5"
+            },
+            {
+              "title": "css",
+              "color": "#006db5",
+              "label": "CSS3"
+            }
+          ]
+        },
+        {
+          "title": "J'utilise beaucoup d'outils, quelques-uns sont listés ici ...",
+          "icons": [
+            {
+              "title": "git",
+              "color": "#e94f32",
+              "label": "GIT"
+            },
+            {
+              "title": "github",
+              "color": "#000000",
+              "label": "Github"
+            },
+            {
+              "title": "relationaldb",
+              "color": "#32648d",
+              "label": "Relational Databases"
+            },
+            {
+              "title": "mongodb",
+              "color": "#48a23a",
+              "label": "Mongodb"
+            },
+            {
+              "title": "docker",
+              "color": "#129bd5",
+              "label": "Docker"
+            },
+            {
+              "title": "terminal",
+              "color": "#bebebebe",
+              "label": "Command lines"
+            }
+          ]
+        },
+        {
+          "title": "Systèmes d'opération libres et propriétaires",
+          "details": "J'utilise Linux en tant que distribution quotidienne. En entreprise, à l'école (et comme distribution quotidienne pendant plusieurs années) j'utilise Windows ",
+          "icons": [
+            {
+              "title": "linux",
+              "color": "#000000",
+              "label": "Linux"
+            },
+            {
+              "title": "windows",
+              "color": "#ffffff",
+              "label": "Windows"
+            }
+          ]
+        }
+      ]
     }
   },
   "en": {
@@ -157,6 +255,104 @@
           "title": "BTS SNIR",
           "location": "Lille, FR",
           "description": "OOP, C++, Relational Databases."
+        }
+      ]
+    },
+    "technologies": {
+      "sectionId": "technologies",
+      "label": "Technologies",
+      "navIcon": "monitor-outline",
+      "sections": [
+        {
+          "title": "Languages is use at work, on personal projetcs, technology watch ...",
+          "icons": [
+            {
+              "title": "react",
+              "color": "#27dcfa",
+              "label": "ReactJS"
+            },
+            {
+              "title": "angular",
+              "color": "#dd0031",
+              "label": "Angular"
+            },
+            {
+              "title": "javascript",
+              "color": "#f0d91d",
+              "label": "Javascript"
+            },
+            {
+              "title": "node",
+              "color": "#7a9f53",
+              "label": "NodeJS"
+            },
+            {
+              "title": "php",
+              "color": "#858fbc",
+              "label": "PHP"
+            },
+            {
+              "title": "html",
+              "color": "#de4b25",
+              "label": "HTML5"
+            },
+            {
+              "title": "css",
+              "color": "#006db5",
+              "label": "CSS3"
+            }
+          ]
+        },
+        {
+          "title": "There are so many tools, some of those I use are listed here ...",
+          "icons": [
+            {
+              "title": "git",
+              "color": "#e94f32",
+              "label": "GIT"
+            },
+            {
+              "title": "github",
+              "color": "#000000",
+              "label": "Github"
+            },
+            {
+              "title": "relationaldb",
+              "color": "#32648d",
+              "label": "Relational Databases"
+            },
+            {
+              "title": "mongodb",
+              "color": "#48a23a",
+              "label": "Mongodb"
+            },
+            {
+              "title": "docker",
+              "color": "#129bd5",
+              "label": "Docker"
+            },
+            {
+              "title": "terminal",
+              "color": "#bebebebe",
+              "label": "Command lines"
+            }
+          ]
+        },
+        {
+          "title": "Free and proprietaty operating systems",
+          "details": "I use Linux-Mint as my daily distribution. At work, at school (and for many years in the past as my daily OS), I use Windows.",
+          "icons": [
+            {
+              "title": "linux",
+              "color": "#000000",
+              "label": "Linux"
+            },
+            {
+              "title": "windows",
+              "color": "#ffffff",
+              "label": "Windows"
+            }
+          ]
         }
       ]
     }
