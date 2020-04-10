@@ -3,7 +3,7 @@ import { Route, Switch } from "react-router-dom";
 
 import Portfolio from "./Components/Portfolio";
 
-const AppRouter = ({ appContent, appCommon, setLanguage }) => (
+const AppRouter = ({ appContent, appCommon, setLanguage, appLogos }) => (
   <Switch>
     <Route
       path="/"
@@ -14,6 +14,7 @@ const AppRouter = ({ appContent, appCommon, setLanguage }) => (
           appContent={appContent}
           appCommon={appCommon}
           setLanguage={setLanguage}
+          appLogos={appLogos}
         />
       )}
     />
