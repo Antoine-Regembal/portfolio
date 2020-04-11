@@ -22,89 +22,93 @@ import {
   DiDatabase,
 } from "react-icons/di";
 import { MdEmail } from "react-icons/md";
+import { Linuxmint } from "@icons-pack/react-simple-icons";
 
 const technologiesLogo = (size, title) => {
   return {
-    react: () => <FaReact size={size} title={title} />,
-    angular: () => <FaAngular size={size} title={title} />,
-    vue: () => <FaVuejs size={size} title={title} />,
-    node: () => <FaNodeJs size={size} title={title} />,
-    php: () => <FaPhp size={size} title={title} />,
-    html: () => <FaHtml5 size={size} title={title} />,
-    css: () => <FaCss3Alt size={size} title={title} />,
-    javascript: () => <DiJsBadge size={size} title={title} />,
-    postgresql: () => <DiPostgresql size={size} title={title} />,
-    mongodb: () => <DiMongodb size={size} title={title} />,
-    git: () => <FaGit size={size} title={title} />,
-    github: () => <FaGithub size={size} title={title} />,
-    docker: () => <FaDocker size={size} title={title} />,
-    linux: () => <FaLinux size={size} title={title} />,
-    terminal: () => <DiTerminal size={size} title={title} />,
-    windows: () => <FaWindows size={size} title={title} />,
-    relationaldb: () => <DiDatabase size={size} title={title} />,
-    linkedin: () => <FaLinkedin size={size} title={title} />,
-    email: () => <MdEmail size={size} title={title} />,
+    react: () => <FaReact size={size} />,
+    angular: () => <FaAngular size={size} />,
+    vue: () => <FaVuejs size={size} />,
+    node: () => <FaNodeJs size={size} />,
+    php: () => <FaPhp size={size} />,
+    html: () => <FaHtml5 size={size} />,
+    css: () => <FaCss3Alt size={size} />,
+    javascript: () => <DiJsBadge size={size} />,
+    postgresql: () => <DiPostgresql size={size} />,
+    mongodb: () => <DiMongodb size={size} />,
+    git: () => <FaGit size={size} />,
+    github: () => <FaGithub size={size} />,
+    docker: () => <FaDocker size={size} />,
+    linux: () => <FaLinux size={size} />,
+    linuxMint: () => <Linuxmint size={size} />,
+    terminal: () => <DiTerminal size={size} />,
+    windows: () => <FaWindows size={size} />,
+    relationaldb: () => <DiDatabase size={size} />,
+    linkedin: () => <FaLinkedin size={size} />,
+    email: () => <MdEmail size={size} />,
   };
 };
 
-const appLogos = (askedTechnology, logoSize, title) => {
-  const logoTitle = title ? title : null;
+const appLogos = (askedTechnology, logoSize) => {
   let technology;
 
   switch (askedTechnology) {
     case "react":
-      technology = technologiesLogo(logoSize, logoTitle).react();
+      technology = technologiesLogo(logoSize).react();
       break;
     case "angular":
-      technology = technologiesLogo(logoSize, logoTitle).angular();
+      technology = technologiesLogo(logoSize).angular();
       break;
     case "vue":
-      technology = technologiesLogo(logoSize, logoTitle).vue();
+      technology = technologiesLogo(logoSize).vue();
       break;
     case "node":
-      technology = technologiesLogo(logoSize, logoTitle).node();
+      technology = technologiesLogo(logoSize).node();
       break;
     case "php":
-      technology = technologiesLogo(logoSize, logoTitle).php();
+      technology = technologiesLogo(logoSize).php();
       break;
     case "html":
-      technology = technologiesLogo(logoSize, logoTitle).html();
+      technology = technologiesLogo(logoSize).html();
       break;
     case "css":
-      technology = technologiesLogo(logoSize, logoTitle).css();
+      technology = technologiesLogo(logoSize).css();
       break;
     case "javascript":
-      technology = technologiesLogo(logoSize, logoTitle).javascript();
+      technology = technologiesLogo(logoSize).javascript();
       break;
     case "relationaldb":
-      technology = technologiesLogo(logoSize, logoTitle).relationaldb();
+      technology = technologiesLogo(logoSize).relationaldb();
       break;
     case "mongodb":
-      technology = technologiesLogo(logoSize, logoTitle).mongodb();
+      technology = technologiesLogo(logoSize).mongodb();
       break;
     case "git":
-      technology = technologiesLogo(logoSize, logoTitle).git();
+      technology = technologiesLogo(logoSize).git();
       break;
     case "github":
-      technology = technologiesLogo(logoSize, logoTitle).github();
+      technology = technologiesLogo(logoSize).github();
       break;
     case "docker":
-      technology = technologiesLogo(logoSize, logoTitle).docker();
+      technology = technologiesLogo(logoSize).docker();
       break;
     case "linux":
-      technology = technologiesLogo(logoSize, logoTitle).linux();
+      technology = technologiesLogo(logoSize).linux();
+      break;
+    case "linuxMint":
+      technology = technologiesLogo(logoSize).linuxMint();
       break;
     case "terminal":
-      technology = technologiesLogo(logoSize, logoTitle).terminal();
+      technology = technologiesLogo(logoSize).terminal();
       break;
     case "windows":
-      technology = technologiesLogo(logoSize, logoTitle).windows();
+      technology = technologiesLogo(logoSize).windows();
       break;
     case "linkedin":
-      technology = technologiesLogo(logoSize, logoTitle).linkedin();
+      technology = technologiesLogo(logoSize).linkedin();
       break;
     case "email":
-      technology = technologiesLogo(logoSize, logoTitle).email();
+      technology = technologiesLogo(logoSize).email();
       break;
     default:
       break;

@@ -358,6 +358,11 @@
               "label": "Linux"
             },
             {
+              "title": "linuxMint",
+              "color": "#a4e265",
+              "label": "Linux Mint"
+            },
+            {
               "title": "windows",
               "color": "#ffffff",
               "label": "Windows"
