@@ -95,7 +95,7 @@
       "navIcon": "monitor-outline",
       "sections": [
         {
-          "title": "Les langages que j'utilise en entreprise, pour des projets personnels, pour la veille technologique ...",
+          "title": "Les langages et frameworks que j'utilise en entreprise, pour des projets personnels, pour la veille technologique ...",
           "icons": [
             {
               "title": "react",
@@ -153,6 +153,31 @@
               "label": "Github"
             },
             {
+              "title": "jest",
+              "color": "#C21325",
+              "label": "Jest"
+            },
+            {
+              "title": "azuredevops",
+              "color": "#0078D7",
+              "label": "Azure Dev0ps"
+            },
+            {
+              "title": "netlify",
+              "color": "#00C7B7",
+              "label": "Netlify"
+            },
+            {
+              "title": "postcss",
+              "color": "#dd3a0a",
+              "label": "PostCSS"
+            },
+            {
+              "title": "sass",
+              "color": "#CC6699",
+              "label": "Sass"
+            },
+            {
               "title": "relationaldb",
               "color": "#32648d",
               "label": "Relational Databases"
@@ -168,9 +193,29 @@
               "label": "Docker"
             },
             {
+              "title": "electron",
+              "color": "#47848F",
+              "label": "Electron"
+            },
+            {
+              "title": "pluralsight",
+              "color": "#F15b2a",
+              "label": "Pluralsight"
+            },
+            {
               "title": "terminal",
               "color": "#bebebebe",
               "label": "Command lines"
+            },
+            {
+              "title": "gimp",
+              "color": "#5C5543",
+              "label": "GIMP"
+            },
+            {
+              "title": "vivaldi",
+              "color": "#Ef3939",
+              "label": "Vivaldi"
             }
           ]
         },
@@ -182,6 +227,11 @@
               "title": "linux",
               "color": "#000000",
               "label": "Linux"
+            },
+            {
+              "title": "linuxMint",
+              "color": "#a4e265",
+              "label": "Linux Mint"
             },
             {
               "title": "windows",
@@ -269,7 +319,7 @@
       "navIcon": "monitor-outline",
       "sections": [
         {
-          "title": "Languages is use at work, for personal projetcs, technology watch ...",
+          "title": "Languages and frameworks is use at work, for personal projetcs, technology watch ...",
           "icons": [
             {
               "title": "react",
@@ -327,6 +377,31 @@
               "label": "Github"
             },
             {
+              "title": "jest",
+              "color": "#C21325",
+              "label": "Jest"
+            },
+            {
+              "title": "azuredevops",
+              "color": "#0078D7",
+              "label": "Azure Dev0ps"
+            },
+            {
+              "title": "netlify",
+              "color": "#00C7B7",
+              "label": "Netlify"
+            },
+            {
+              "title": "postcss",
+              "color": "#dd3a0a",
+              "label": "PostCSS"
+            },
+            {
+              "title": "sass",
+              "color": "#CC6699",
+              "label": "Sass"
+            },
+            {
               "title": "relationaldb",
               "color": "#32648d",
               "label": "Relational Databases"
@@ -342,9 +417,29 @@
               "label": "Docker"
             },
             {
+              "title": "electron",
+              "color": "#47848F",
+              "label": "Electron"
+            },
+            {
+              "title": "pluralsight",
+              "color": "#F15b2a",
+              "label": "Pluralsight"
+            },
+            {
               "title": "terminal",
               "color": "#bebebebe",
               "label": "Command lines"
+            },
+            {
+              "title": "gimp",
+              "color": "#5C5543",
+              "label": "GIMP"
+            },
+            {
+              "title": "vivaldi",
+              "color": "#Ef3939",
+              "label": "Vivaldi"
             }
           ]
         },

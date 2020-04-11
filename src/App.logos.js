@@ -22,7 +22,18 @@ import {
   DiDatabase,
 } from "react-icons/di";
 import { MdEmail } from "react-icons/md";
-import { Linuxmint } from "@icons-pack/react-simple-icons";
+import {
+  Linuxmint,
+  Postcss,
+  Azuredevops,
+  Pluralsight,
+  Jest,
+  Gimp,
+  Vivaldi,
+  Netlify,
+  Electron,
+  Sass,
+} from "@icons-pack/react-simple-icons";
 
 const technologiesLogo = (size, title) => {
   return {
@@ -33,6 +44,7 @@ const technologiesLogo = (size, title) => {
     php: () => <FaPhp size={size} />,
     html: () => <FaHtml5 size={size} />,
     css: () => <FaCss3Alt size={size} />,
+    postcss: () => <Postcss size={size} />,
     javascript: () => <DiJsBadge size={size} />,
     postgresql: () => <DiPostgresql size={size} />,
     mongodb: () => <DiMongodb size={size} />,
@@ -46,6 +58,14 @@ const technologiesLogo = (size, title) => {
     relationaldb: () => <DiDatabase size={size} />,
     linkedin: () => <FaLinkedin size={size} />,
     email: () => <MdEmail size={size} />,
+    azuredevops: () => <Azuredevops size={size} />,
+    pluralsight: () => <Pluralsight size={size} />,
+    jest: () => <Jest size={size} />,
+    gimp: () => <Gimp size={size} />,
+    vivaldi: () => <Vivaldi size={size} />,
+    netlify: () => <Netlify size={size} />,
+    electron: () => <Electron size={size} />,
+    sass: () => <Sass size={size} />,
   };
 };
 
@@ -73,6 +93,9 @@ const appLogos = (askedTechnology, logoSize) => {
       break;
     case "css":
       technology = technologiesLogo(logoSize).css();
+      break;
+    case "postcss":
+      technology = technologiesLogo(logoSize).postcss();
       break;
     case "javascript":
       technology = technologiesLogo(logoSize).javascript();
@@ -109,6 +132,30 @@ const appLogos = (askedTechnology, logoSize) => {
       break;
     case "email":
       technology = technologiesLogo(logoSize).email();
+      break;
+    case "azuredevops":
+      technology = technologiesLogo(logoSize).azuredevops();
+      break;
+    case "pluralsight":
+      technology = technologiesLogo(logoSize).pluralsight();
+      break;
+    case "jest":
+      technology = technologiesLogo(logoSize).jest();
+      break;
+    case "gimp":
+      technology = technologiesLogo(logoSize).gimp();
+      break;
+    case "vivaldi":
+      technology = technologiesLogo(logoSize).vivaldi();
+      break;
+    case "netlify":
+      technology = technologiesLogo(logoSize).netlify();
+      break;
+    case "electron":
+      technology = technologiesLogo(logoSize).electron();
+      break;
+    case "sass":
+      technology = technologiesLogo(logoSize).sass();
       break;
     default:
       break;
