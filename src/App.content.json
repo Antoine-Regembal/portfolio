@@ -108,6 +108,11 @@
               "label": "Angular"
             },
             {
+              "title": "vue",
+              "color": "#4fc08d",
+              "label": "VueJS"
+            },
+            {
               "title": "javascript",
               "color": "#f0d91d",
               "label": "Javascript"
@@ -275,6 +280,11 @@
               "title": "angular",
               "color": "#dd0031",
               "label": "Angular"
+            },
+            {
+              "title": "vue",
+              "color": "#4fc08d",
+              "label": "VueJS"
             },
             {
               "title": "javascript",

@@ -12,6 +12,7 @@ import {
   FaLinux,
   FaWindows,
   FaLinkedin,
+  FaVuejs,
 } from "react-icons/fa";
 import {
   DiPostgresql,
@@ -26,6 +27,7 @@ const technologiesLogo = (size, title) => {
   return {
     react: () => <FaReact size={size} title={title} />,
     angular: () => <FaAngular size={size} title={title} />,
+    vue: () => <FaVuejs size={size} title={title} />,
     node: () => <FaNodeJs size={size} title={title} />,
     php: () => <FaPhp size={size} title={title} />,
     html: () => <FaHtml5 size={size} title={title} />,
@@ -55,6 +57,9 @@ const appLogos = (askedTechnology, logoSize, title) => {
       break;
     case "angular":
       technology = technologiesLogo(logoSize, logoTitle).angular();
+      break;
+    case "vue":
+      technology = technologiesLogo(logoSize, logoTitle).vue();
       break;
     case "node":
       technology = technologiesLogo(logoSize, logoTitle).node();
