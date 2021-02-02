@@ -33,6 +33,7 @@ import {
   Netlify,
   Electron,
   Sass,
+  Manjaro
 } from "@icons-pack/react-simple-icons";
 
 const technologiesLogo = (size, title) => {
@@ -66,6 +67,7 @@ const technologiesLogo = (size, title) => {
     netlify: () => <Netlify size={size} />,
     electron: () => <Electron size={size} />,
     sass: () => <Sass size={size} />,
+    manjaro: () => <Manjaro size={size} />
   };
 };
 
@@ -156,6 +158,9 @@ const appLogos = (askedTechnology, logoSize) => {
       break;
     case "sass":
       technology = technologiesLogo(logoSize).sass();
+      break;
+    case "manjaro":
+      technology = technologiesLogo(logoSize).manjaro();
       break;
     default:
       break;

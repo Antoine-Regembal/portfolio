@@ -229,6 +229,12 @@
               "label": "Linux"
             },
             {
+            
+              "title": "manjaro",
+              "color": "#34be5b",
+              "label": "Manjaro"
+            },
+            {
               "title": "linuxMint",
               "color": "#a4e265",
               "label": "Linux Mint"
@@ -451,6 +457,12 @@
               "title": "linux",
               "color": "#000000",
               "label": "Linux"
+            },
+            {
+            
+              "title": "manjaro",
+              "color": "#34be5b",
+              "label": "Manjaro"
             },
             {
               "title": "linuxMint",
