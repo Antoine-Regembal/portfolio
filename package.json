@@ -19,6 +19,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "startd": "BROWSER=firefox-developer-edition npm start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
